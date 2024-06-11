@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  <title>Results summary component</title>
+  <link href="./output.css" rel="stylesheet">
+  <!-- Font Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="font-Hanken-Grotesk md:h-screen md:flex md:flex-col md:place-content-center">
+  <section
+    class="w-[375px] mx-auto bg-white mb-10 shadow-lg shadow-Light-lavender md:flex md:mt-6 md:w-[740px] md:h-[512px] md:rounded-3xl">
+    <!-- parte azul -->
+    <div
+      class="bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue h-[356px] pt-6 px-10 text-center rounded-b-[32px] md:w-[370px] md:h-full md:rounded-3xl md:p-12">
+      <h2 class="mb-6 text-Light-lavender text-[18px] font-semibold md:mb-10">Your Result</h2>
+
+      <div
+        class="bg-gradient-to-b from-Violet-blue to-Persian-blue w-[145px] h-[145px] mx-auto rounded-full grid place-content-center mb-5 text-[18px] md:mb-10 md:w-[180px] md:h-[180px]">
+        <p class="text-white text-5xl font-bold mb-2 md:text-6xl">76</p>
+        <p class="text-Light-lavender">of 100</p>
+      </div>
+
+      <p class="text-white text-[20px] font-bold mb-1 md:text-3xl md:mb-6">Great</p>
+      <p class="text-Light-lavender md:text-xl">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+    <!-- parte blanca -->
+    <div class="p-8 h-[454px] md:w-[370px] md:py-14 md:px-10">
+      <h2 class="text-[18px] text-Dark-gray-blue mb-6 font-bold md:text-2xl">Summary</h2>
+
+      <div
+        class="bg-Lightred-alpha flex place-content-between rounded-lg p-3 mb-4 h-[54px] items-center md:text-xl md:px-4">
+        <p class="text-Light-red flex gap-2">
+          <img src="../assets/images/icon-reaction.svg" alt="">
+          <span class="font-bold">Reaction</span>
+        </p>
+
+        <p class="text-Dark-gray-blue font-bold">80 <span class="text-Dark-gray-blue-alpha font-bold">/100</span></p>
+      </div>
+
+      <div
+        class="bg-Orangey-yellow-alpha flex place-content-between rounded-lg p-3 mb-4 h-[54px] items-center md:text-xl md:px-4">
+        <p class="text-Orangey-yellow flex gap-2">
+          <img src="../assets/images/icon-memory.svg" alt="">
+          <span class="font-bold">Memory</span>
+        </p>
+
+        <p class="text-Dark-gray-blue font-bold">92 <span class="text-Dark-gray-blue-alpha font-bold">/100</span></p>
+      </div>
+
+      <div
+        class="bg-Green-teal-alpha flex place-content-between rounded-lg p-3 mb-4 h-[54px] items-center md:text-xl md:px-4">
+        <p class="text-Green-teal flex gap-2">
+          <img src="../assets/images/icon-verbal.svg" alt="">
+          <span class="font-bold">Verbal</span>
+        </p>
+
+        <p class="text-Dark-gray-blue font-bold">61 <span class="text-Dark-gray-blue-alpha font-bold">/100</span></p>
+      </div>
+
+      <div
+        class="bg-Cobalt-blue-alpha flex place-content-between rounded-lg p-3 mb-4 h-[54px] items-center md:text-xl md:px-4 md:mb-10">
+        <p class="text-Cobalt-blue flex gap-2">
+          <img src="../assets/images/icon-visual.svg" alt="">
+          <span class="font-bold">Visual</span>
+        </p>
+
+        <p class="text-Dark-gray-blue font-bold">72 <span class="text-Dark-gray-blue-alpha font-bold">/100</span></p>
+      </div>
+
+      <button
+        class="bg-Dark-gray-blue text-white w-full h-14 rounded-[28px] text-[18px] hover:bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue"
+        type="button">Continue</button>
+    </div>
+  </section>
+
+  <div class="text-center">
+    Challenge by <a class="text-Violet-blue font-bold" href="https://www.frontendmentor.io?ref=challenge"
+      target="_blank">Frontend Mentor</a>.
+    Coded by <a class="text-Violet-blue font-bold" href="https://github.com/alvaro-dev11" target="_blank">Alvaro
+      Villanueva</a>.
+  </div>
+</body>
+
+</html>
